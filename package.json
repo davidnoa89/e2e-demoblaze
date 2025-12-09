@@ -1,0 +1,21 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "ejercicio practico DEVSU LLC",
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "license": "ISC",
+  "author": "David Basantes",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.7.1"
+  }
+}
