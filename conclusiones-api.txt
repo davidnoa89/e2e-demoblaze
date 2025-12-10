@@ -1,0 +1,19 @@
+Conclusiones – Proyecto API Demoblaze con Cypress
+
+Automatización de pruebas de API
+Se logró automatizar exitosamente pruebas de signup, login y manejo de usuarios con credenciales válidas e inválidas utilizando Cypress.
+
+Manejo de respuestas inconsistentes
+La API de Demoblaze devuelve a veces respuestas como string y otras veces como JSON. Los tests fueron adaptados para manejar ambos casos sin fallos.
+
+Usuarios aleatorios para pruebas
+Para evitar conflictos con usuarios existentes en la API, se implementó la generación de usuarios aleatorios, lo que garantiza independencia y repetibilidad de los tests.
+
+Verificación de flujo completo
+Se comprobó que un usuario recién creado pueda iniciar sesión correctamente, y que la API responda adecuadamente ante intentos de login con credenciales incorrectas o duplicación de usuario.
+
+Estabilidad de la suite de pruebas
+La suite de tests está diseñada para ser estable y reutilizable, lo que permite agregar nuevas pruebas en el futuro sin afectar las existentes.
+
+Documentación clara y profesional
+Se creó un README.md completo con instrucciones de instalación, ejecución, estructura del proyecto y descripción de los tests, facilitando la comprensión del proyecto a otros desarrolladores o evaluadores.

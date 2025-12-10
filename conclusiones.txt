@@ -1,0 +1,19 @@
+Conclusiones – Flujo de compra en Demoblaze con Cypress
+
+Automatización del flujo completo de compra
+Se logró automatizar todo el proceso de compra en la tienda Demoblaze, desde la selección de productos hasta la confirmación de la compra, verificando que cada paso funcione correctamente.
+
+Validación de alertas y notificaciones
+Se comprobaron las alertas de “Product added” al agregar productos al carrito, garantizando que la tienda responde correctamente a las acciones del usuario.
+
+Verificación del carrito
+Se validó que el carrito contenga la cantidad correcta de productos agregados, asegurando la consistencia de los datos antes de proceder a la compra.
+
+Prueba del formulario de compra
+Se completó exitosamente el formulario de “Place Order” con información de usuario y tarjeta, verificando que la aplicación acepte los datos y permita finalizar la compra.
+
+Validación de confirmación de compra
+Se comprobó que el modal de confirmación (sweet-alert) aparezca correctamente después de la compra, incluyendo la presencia del botón “OK” para cerrarlo, garantizando que el flujo de compra está completo y funcional.
+
+Estabilidad de la prueba end-to-end
+La prueba está diseñada de forma robusta, verificando cada paso crítico del flujo de compra y asegurando que los cambios en la interfaz no rompan la automatización.
